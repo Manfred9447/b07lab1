@@ -141,7 +141,6 @@ public class Polynomial {
 				out += coefficients[i] + "x" + exponents[i];
 			}
 		}
-		System.out.println(out);
 		try {
 			BufferedWriter bw = new BufferedWriter(new FileWriter(path));
 			bw.append(out + "\n");
